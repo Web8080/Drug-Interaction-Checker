@@ -53,7 +53,7 @@ Copy code
 cd drug-interaction-checker
 
 
-## Install the dependencies:
+### Install the dependencies:
 bash
 Copy code
 pip install -r requirements.txt
@@ -61,11 +61,14 @@ Run the Streamlit app:
 bash
 Copy code
 streamlit run code.py
+
 The app will start locally, and you can access it in your browser at:
 arduino
 Copy code
 http://localhost:8501
-Usage
+
+
+####Usage
 
 Enter one or more medication names, separated by commas, in the input field.
 
@@ -74,7 +77,7 @@ View the interaction details, including severity, if available.
 Click Reset to clear the input and search again.
 
 
-#Example
+####Example
 
 Interaction Results for Ciprofloxacin and Amoxicillin:
  less
